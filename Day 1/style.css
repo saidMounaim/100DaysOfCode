@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #312F2F;
+    font-family: 'Lato', sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    color: #F6E8EA;
+}
+
+
+.field-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.field-input i {
+    position: absolute;
+    right: 20px;
+    top: 60%;
+    font-size: 23px;
+    transform: translateY(-50%);
+    transition: all 0.6s ease-in-out;
+}
+
+.field-input i.fa-exclamation-circle {
+    color: #EF626C;
+}
+
+.field-input i.fa-check-circle {
+    color: #84DCCF;
+}
+
+.field-input input {
+    font-size: 19px;
+    width: 100%;
+    padding: 18px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #F6E8EA;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #F6E8EA !important;
+    border-radius: 5px;
+}
+
+.field-input input::placeholder {
+    color: #F6E8EA !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.field-input span {
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 15px;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.field-input span.invalid {
+    color: #EF626C;
+}
+
+.field-input span.valid {
+    color: #84DCCF;
+}
