@@ -17,59 +17,76 @@ function showItems(dataApis) {
 	});
 }
 
+function hideData() {
+	gridElement.innerHTML = '';
+	document.querySelector('.pagination').style.opacity = 0;
+}
+
 //fetch Api
 async function fetchApi() {
 	const data = await fetch(`https://api.publicapis.org/entries`).then((response) => response.json());
-
-	const itemsLength = data.entries.length;
-	paginate(data.entries, itemsLength);
+	if (data.count !== 0) {
+		paginate(data.entries, data.count);
+	} else {
+		hideData();
+	}
 }
 
 function paginate(items, itemsLength) {
-	let itemsPerPage = 8;
-	let currentPage = 1;
+	if (itemsLength !== 0) {
+		let itemsPerPage = 8;
+		let currentPage = 1;
 
-	let totalPages = Math.ceil(itemsPerPage * itemsLength);
+		let totalPages = Math.ceil(itemsPerPage * itemsLength);
 
-	let pages = [];
-
-	for (let i = 1; i <= totalPages; i++) {
-		pages.push(i);
-	}
-
-	const next = document.querySelector('.next');
-	const prev = document.querySelector('.prev');
-
-	next.addEventListener('click', function () {
-		if (currentPage == totalPages) {
-			return false;
+		if (itemsLength > 8) {
+			document.querySelector('.pagination').style.opacity = 1;
 		}
-		currentPage++;
-		filtredItems();
-	});
 
-	prev.addEventListener('click', function () {
-		if (currentPage == 1) {
-			return false;
+		let pages = [];
+
+		for (let i = 1; i <= totalPages; i++) {
+			pages.push(i);
 		}
-		currentPage--;
-		filtredItems();
-	});
 
-	function filtredItems() {
-		const indexOfLastItems = currentPage * itemsPerPage;
-		const indexOfFirstItems = indexOfLastItems - itemsPerPage;
-		const filtredItems = items.slice(indexOfFirstItems, indexOfLastItems);
-		showItems(filtredItems);
+		const next = document.querySelector('.next');
+		const prev = document.querySelector('.prev');
+
+		next.addEventListener('click', function () {
+			if (currentPage == totalPages) {
+				return false;
+			}
+			currentPage++;
+			filtredItems();
+		});
+
+		prev.addEventListener('click', function () {
+			if (currentPage == 1) {
+				return false;
+			}
+			currentPage--;
+			filtredItems();
+		});
+
+		function filtredItems() {
+			const indexOfLastItems = currentPage * itemsPerPage;
+			const indexOfFirstItems = indexOfLastItems - itemsPerPage;
+			const filtredItems = items.slice(indexOfFirstItems, indexOfLastItems);
+			showItems(filtredItems);
+		}
+		filtredItems();
 	}
-	filtredItems();
 }
 
 async function searchApi(query) {
 	const data = await fetch(`https://api.publicapis.org/entries?category=${query}&https=true`).then((response) =>
 		response.json()
 	);
-	paginate(data.entries, data.entries.length);
+	if (data.count !== 0) {
+		paginate(data.entries, data.count);
+	} else {
+		hideData();
+	}
 }
 
 input.addEventListener('keyup', function (e) {

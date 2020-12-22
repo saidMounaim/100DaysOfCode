@@ -91,10 +91,14 @@ span {
 	padding: 9px 30px;
 	font-size: 20px;
 	color: #fff;
-	background-color: #fa9d9e;
+	background-color: #fa3546;
 	transition: all 0.5s ease-in-out;
 }
 .pagination div:hover {
-	background-color: #fa3546;
+	background-color: #fa9d9e;
 	cursor: pointer;
+}
+
+.disabled {
+	pointer-events: none;
 }
