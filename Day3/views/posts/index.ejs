@@ -1,0 +1,49 @@
+<%- include('../partials/header.ejs') -%> 
+
+
+<div class="py-5">
+
+	<div class="container">
+
+		<div class="row">
+
+      <% if(posts) { %>
+        <% posts.forEach(post =>  { %>
+          <div class="col-md-4 postBlog">
+            <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <span><%= post.title %></span>
+            </div>
+            <div class="card-body">
+                      <p class="card-text"><%= post.description %></p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="/<%= post._id %>" class="btn btn-sm btn-outline-primary" >View</a>
+                          <button class=" delete-post btn btn-sm btn-outline-danger" data-id="<%= post.id %>" >Delete</button>
+                        </div>
+                      </div>
+                        <small class="text-muted pt-3"><%= post.createdAt.toLocaleDateString() %></small>
+
+                    </div>
+                  </div>
+                </div>
+        <% }) %>
+      <% } %>
+            </div>
+
+	</div>
+
+</div>
+
+<script>
+  const items = document.querySelectorAll('.postBlog');
+  items.forEach(item => {
+    const btnDelete =  item.querySelector(".delete-post");
+    btnDelete.addEventListener("click", async (e) => {
+      const id = btnDelete.getAttribute("data-id");
+      await fetch(`/${id}`, { method: 'DELETE' }).then(() => {});
+    })
+  })
+</script>
+
+<%- include('../partials/footer.ejs') -%>

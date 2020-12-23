@@ -1,0 +1,18 @@
+body {
+    padding-bottom: 40px;
+}
+
+span {
+    display: block;
+    font-size: 18px;
+    color: #000;
+}
+
+small {
+    font-size: 100%;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}

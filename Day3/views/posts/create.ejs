@@ -1,0 +1,43 @@
+<%- include('../partials/header.ejs') -%> 
+
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <h1 class="py-5">Create Post</h1>
+
+                <form method="POST" action="/new">
+
+                    <div class="form-group my-4">
+                        <label for="title">
+                            Title
+                        </label>
+                        <input type="text" name="title" id="id" placeholder="Title" class="form-control" />
+                    </div>
+
+                    <div class="form-group my-4">
+
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description" placeholder="Description" class="form-control"></textarea>
+
+                    </div>
+
+
+                    <div class="form-group my-4">
+                        <button type="submit" class="btn btn-primary" >Create</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+<%- include('../partials/footer.ejs') -%>
