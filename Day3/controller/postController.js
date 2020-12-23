@@ -38,8 +38,9 @@ const getPost = async (req, res) => {
 const deletePost = async (req, res) => {
     const id = req.params.id;
     if(id !== null) {
-        await Post.findByIdAndDelete(id);
-        res.redirect("/");
+        await Post.findByIdAndDelete(id).then(result => {
+            res.json({ redirect: "/" });
+        });
     } else {
         res.redirect("/");
     }

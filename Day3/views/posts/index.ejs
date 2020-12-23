@@ -41,7 +41,9 @@
     const btnDelete =  item.querySelector(".delete-post");
     btnDelete.addEventListener("click", async (e) => {
       const id = btnDelete.getAttribute("data-id");
-      await fetch(`/${id}`, { method: 'DELETE' }).then(() => {});
+      await fetch(`/${id}`, { method: 'DELETE' })
+      .then(response => response.json())
+      .then(data => window.location.href = data.redirect);
     })
   })
 </script>
