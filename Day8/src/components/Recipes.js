@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 
 const Recipes = () => {
 	const [recipes, setRecipes] = useState([]);
 	const [query, setQuery] = useState('');
-	let history = useHistory();
 
 	const fetchRecipes = async () => {
 		const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`).then((response) =>
@@ -15,7 +13,7 @@ const Recipes = () => {
 
 	useEffect(() => {
 		fetchRecipes();
-	}, [query, history]);
+	}, [query]);
 
 	const handleModal = (id) => {
 		console.log(id);
@@ -27,7 +25,6 @@ const Recipes = () => {
 		e.stopPropagation();
 		if (e.target.classList.contains('modal')) {
 			e.target.classList.remove('show');
-			console.log('jjz');
 		}
 	};
 
