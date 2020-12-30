@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	background-color: #202d58;
+	transition: all 0.6s;
+}
+
+body.LightMode {
+	background-color: #fff;
+}
+
+header {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 30px;
+	color: #fff;
+}
+
+body.LightMode h1 {
+	color: #202d58 !important;
+}
+
+button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: #202d58;
+}
+
+header button {
+	background: #849cf8;
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 10px 28px;
+	border-radius: 5px;
+	font-family: 'Varela Round', sans-serif;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+header button:hover {
+	background-color: #4b66d1;
+}
+
+.main {
+	color: #202d58;
+	font-size: 25px;
+}
+
+body.LightMode .main {
+	color: #fff;
+}
+
+.notes {
+	width: 97%;
+	display: flex;
+	/* background-color: white; */
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+.notes-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	padding: 40px;
+}
+
+.note {
+	padding: 15px;
+	height: 300px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+body.LightMode .note {
+	background-color: #202d58;
+}
+
+.note .action {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.note .action i {
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+body.LightMode .note .action i {
+	color: white;
+}
+
+textarea {
+	background-color: transparent;
+	color: #202d58;
+	border: none;
+	outline: none;
+	resize: none;
+	width: 95%;
+	font-size: 25px;
+}
+
+body.LightMode textarea {
+	color: #fff;
+}
+
+.hidden {
+	display: none;
+}
