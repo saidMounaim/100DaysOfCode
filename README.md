@@ -16,3 +16,4 @@ The 100 days of code challenge 😍
 | 8   | Recipe App                | Recipe App Using React Hooks & ThemealDB Api              | React Hooks, Css3            | Done ✔ |
 | 9   | URL Shortener App         | URL Shortener App Using Vanilla JavaScript                | JavaScript, CSS              | Done ✔ |
 | 10  | Notes App                 | Notes App App Using Vanilla JavaScript                    | JavaScript, CSS              | Done ✔ |
+| 11  | Movie App                 | Movie App Using React Hooks, Redux & Styled Components    | React Hooks, Redux           | Done ✔ |
