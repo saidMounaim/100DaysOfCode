@@ -17,3 +17,4 @@ The 100 days of code challenge 😍
 | 9   | URL Shortener App         | URL Shortener App Using Vanilla JavaScript                | JavaScript, CSS              | Done ✔ |
 | 10  | Notes App                 | Notes App App Using Vanilla JavaScript                    | JavaScript, CSS              | Done ✔ |
 | 11  | Movie App                 | Movie App Using React Hooks, Redux & Styled Components    | React Hooks, Redux           | Done ✔ |
+| 12  | Photo Gallery App         | Photo Gallery App Using Node Js, Express Js & PIXABAY API | Node Js, Express Js          | Done ✔ |

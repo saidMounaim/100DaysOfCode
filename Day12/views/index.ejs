@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Photo Gallery Using Node Js & Express Js</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- NAVBAR MENU -->
+			<nav class="main-nav">
+				<h2>Photo Gallery</h2>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+			</nav>
+
+			<!-- SEARCH INPUT & UPLAOD BUTTON -->
+			<div class="top">
+				<div class="search">
+					<form action="/search" method="POST">
+						<input type="text" name="query" placeholder="Search" />
+					</form>
+					<i class="fas fa-search"></i>
+				</div>
+			</div>
+
+			<!-- PHOTOS GRID -->
+			<div class="photos-grid">
+				<% photos.forEach(photo => {%>
+				<div class="item" id="item">
+					<img src="<%= photo.largeImageURL %>" />
+					<div class="info-image">By : <%= photo.user %></div>
+					<div class="modal">
+						<div class="photo-full">
+							<img src="<%= photo.largeImageURL %>" />
+						</div>
+					</div>
+				</div>
+				<% }); %>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
