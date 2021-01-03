@@ -18,14 +18,14 @@ async function quote() {
     `;
 
 	document.querySelector('.content').append(quote);
-
-	tweetQuote.addEventListener('click', () => {
-		window.open(`https://twitter.com/intent/tweet/?text=${newQuote.content}`);
-	});
 }
 
 newQuote.addEventListener('click', () => {
 	quote();
+});
+
+tweetQuote.addEventListener('click', () => {
+	newQuote.content && window.open(`https://twitter.com/intent/tweet/?text=${newQuote.content}`);
 });
 
 quote();
