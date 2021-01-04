@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Password Generator Using Vanilla JavaScript</title>
+	</head>
+	<body>
+		<div class="generate">
+			<h1>Password Generator</h1>
+			<div class="password">
+				<label id="result"></label>
+				<svg
+					id="clipboard"
+					width="20"
+					height="20"
+					viewBox="0 0 17 17"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M13.8314 2.36111H12.75V3.30556H13.6944V15.1111H3.30556V3.30556H4.25V2.36111H3.30556C3.18991 2.34439 3.07203 2.35237 2.9597 2.38455C2.84737 2.41673 2.74314 2.47236 2.65389 2.54778C2.56464 2.62319 2.49239 2.71668 2.44193 2.82207C2.39146 2.92746 2.36391 3.04235 2.36111 3.15917V15.2575C2.36173 15.3629 2.38311 15.4672 2.42402 15.5644C2.46494 15.6615 2.52459 15.7497 2.59957 15.8238C2.67456 15.8979 2.7634 15.9565 2.86104 15.9963C2.95868 16.036 3.06319 16.0562 3.16861 16.0556H13.8314C13.9368 16.0562 14.0413 16.036 14.139 15.9963C14.2366 15.9565 14.3254 15.8979 14.4004 15.8238C14.4754 15.7497 14.5351 15.6615 14.576 15.5644C14.6169 15.4672 14.6383 15.3629 14.6389 15.2575V3.15917C14.6383 3.05374 14.6169 2.94948 14.576 2.85231C14.5351 2.75515 14.4754 2.667 14.4004 2.5929C14.3254 2.51879 14.2366 2.46018 14.139 2.42041C14.0413 2.38064 13.9368 2.36049 13.8314 2.36111V2.36111Z"
+						fill="white"
+					/>
+					<path
+						d="M12.2778 3.46139C12.2765 3.16996 12.1602 2.89082 11.9541 2.68475C11.7481 2.47868 11.4689 2.36235 11.1775 2.36111H10.3275C10.2235 1.9548 9.98717 1.59468 9.65585 1.3375C9.32454 1.08033 8.91705 0.940741 8.49764 0.940741C8.07823 0.940741 7.67074 1.08033 7.33942 1.3375C7.00811 1.59468 6.77181 1.9548 6.66778 2.36111H5.8225C5.53107 2.36235 5.25193 2.47868 5.04586 2.68475C4.83979 2.89082 4.72347 3.16996 4.72222 3.46139V5.19444H12.2778V3.46139ZM11.3333 4.25H5.66667V3.46139C5.66667 3.44092 5.6707 3.42066 5.67853 3.40175C5.68636 3.38285 5.69784 3.36567 5.71231 3.3512C5.72678 3.33673 5.74396 3.32525 5.76287 3.31742C5.78177 3.30959 5.80204 3.30556 5.8225 3.30556H7.55556V2.83333C7.55556 2.58285 7.65506 2.34263 7.83218 2.16551C8.00929 1.98839 8.24952 1.88889 8.5 1.88889C8.75048 1.88889 8.99071 1.98839 9.16782 2.16551C9.34494 2.34263 9.44444 2.58285 9.44444 2.83333V3.30556H11.1775C11.2188 3.30556 11.2585 3.32197 11.2877 3.3512C11.3169 3.38042 11.3333 3.42006 11.3333 3.46139V4.25Z"
+						fill="white"
+					/>
+					<path d="M5.19444 6.61111H11.8056V7.55556H5.19444V6.61111Z" fill="white" />
+					<path d="M5.19444 8.5H11.8056V9.44444H5.19444V8.5Z" fill="white" />
+					<path d="M5.19444 10.3889H11.8056V11.3333H5.19444V10.3889Z" fill="white" />
+					<path d="M5.19444 12.2778H11.8056V13.2222H5.19444V12.2778Z" fill="white" />
+				</svg>
+			</div>
+			<div class="options">
+				<div class="option">
+					<label>Password Length</label>
+					<input type="range" id="length" min="1" max="10" onchange="updateTextInput(this.value);" />
+					<label id="rangeInput">6</label>
+				</div>
+				<div class="option">
+					<label>Include uppercase letters</label>
+					<input type="checkbox" id="upper" />
+				</div>
+				<div class="option">
+					<label>Include lowercase letters</label>
+					<input type="checkbox" id="lower" />
+				</div>
+				<div class="option">
+					<label>Include numbers letters</label>
+					<input type="checkbox" id="numbers" />
+				</div>
+				<div class="option">
+					<label>Include symbols letters</label>
+					<input type="checkbox" id="symbols" />
+				</div>
+			</div>
+			<div class="btn-gen">
+				<button id="genBtn">Generate password</button>
+			</div>
+		</div>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+			integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+			crossorigin="anonymous"
+		></script>
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0a3d62;
+}
+
+.generate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	background-color: #3c6382;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.password {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background: #0a3d62;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 9px;
+	color: #fff;
+}
+
+.password label {
+	font-size: 19px;
+}
+
+.options {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.option label {
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+.btn-gen {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 15px;
+}
+
+button {
+	font-size: 19px;
+	padding: 8px 11px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background-color: #0a3d62;
+	color: white;
+	transition: all 0.4s;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+}
+button:hover {
+	background-color: #0a2d46;
+}
+
+.password svg {
+	cursor: pointer;
+}

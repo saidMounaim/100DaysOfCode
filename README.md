@@ -19,3 +19,5 @@ The 100 days of code challenge 😍
 | 11  | Movie App                  | Movie App Using React Hooks, Redux & Styled Components    | React Hooks, Redux           | Done ✔ |
 | 12  | Photo Gallery App          | Photo Gallery App Using Node Js, Express Js & PIXABAY API | Node Js, Express Js          | Done ✔ |
 | 13  | Random Quote Generator App | Random Quote Generator App Using Vanilla JavaScript       | JavaScript, Css              | Done ✔ |
+| 14  | Book Finder App            | Book Finder App Using Vanilla JavaScript                  | React Hooks, Css             | Done ✔ |
+| 15  | Password Generator App     | Strong Password Generator App Using Vanilla JavaScript    | JavaScript, Css              | Done ✔ |
