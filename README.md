@@ -21,3 +21,4 @@ The 100 days of code challenge 😍
 | 13  | Random Quote Generator App | Random Quote Generator App Using Vanilla JavaScript       | JavaScript, Css              | Done ✔ |
 | 14  | Book Finder App            | Book Finder App Using Vanilla JavaScript                  | React Hooks, Css             | Done ✔ |
 | 15  | Password Generator App     | Strong Password Generator App Using Vanilla JavaScript    | JavaScript, Css              | Done ✔ |
+| 16  | Blog Cards Component       | Blog Card Component Using HTML5, CSS3 & JS (GSAP)         | Html, Css, Gsap              | Done ✔ |
