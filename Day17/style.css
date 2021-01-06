@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2FB;
+}
+
+header {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1550px;
+    max-width: 95%;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #252D6B;
+}
+
+ul li {
+    list-style: none;
+}
+
+.shopping-cart {
+    padding: 15px 25px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-gap: 35px;
+}
+
+.leftSide h3 {
+    font-size: 21px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #252D6B;
+    color: #252D6B;
+}
+
+.leftSide ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.leftSide li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.leftSide span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #282829;
+}
+
+.leftSide button {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #f74040;
+    cursor: pointer;
+}
+
+.leftSide .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid #252D6B;
+}
+
+.leftSide .total h4 {
+    font-size: 21px;
+    color: #252D6B;
+}
+
+.rightSide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.rightSide .product {
+    border: 1px solid #252D6B;
+    border-radius: 5px;
+}
+
+.rightSide .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.rightSide .info {
+    padding: 13px;
+}
+
+.rightSide .info h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+
+.rightSide .action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightSide span {
+    font-size: 14px;
+}
+
+.rightSide button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #252D6B;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .rightSide {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightSide {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shopping-cart {
+        grid-template-columns: 1fr;
+    }
+}
