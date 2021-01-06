@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #F2F2FB;
 }
 
 header {
@@ -153,4 +152,8 @@ ul li {
     .shopping-cart {
         grid-template-columns: 1fr;
     }
+}
+
+.disabled {
+    pointer-events: none;
 }
