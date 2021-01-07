@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Github Jobs Search Using Node js, Express js & GITHUB API</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="/">
+				<h1>Github Jobs Search</h1>
+			</a>
+		</header>
+
+		<div class="container">
+			<form method="GET" action="/search">
+				<div class="search">
+					<div class="form-group">
+						<label>Job Description</label>
+						<input type="text" name="description" placeholder="Job Description" />
+					</div>
+					<div class="form-group">
+						<label>Location</label>
+						<input type="text" name="location" placeholder="Location" />
+					</div>
+					<div class="btn-submit">
+						<button type="submit">Search</button>
+					</div>
+				</div>
+			</form>
+
+			<div class="jobs-grid">
+				<% jobs.forEach(job=> { %>
+
+				<div class="job">
+					<img src="<%= job.company_logo %>" />
+					<div class="info">
+						<object>
+							<a href="<%= job.company_url %>"> <%= job.company %> </a>
+						</object>
+						<h2><%= job.title %></h2>
+						<span> <%= job.location %> </span>
+					</div>
+					<div class="modal">
+						<div class="content-modal">
+							<img src="<%= job.company_logo %>" />
+							<h2><%= job.title %></h2>
+							<span> <%= job.location %> </span>
+							<p><%- job.description %></p>
+						</div>
+					</div>
+				</div>
+
+				<% }); %>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
