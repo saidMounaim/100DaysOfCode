@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00b894;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.filter-container {
+    margin-top: 20px;
+    width: 80vw;
+    max-width: 800px;
+}
+
+.filter {
+    width: 100%;
+    padding: 12px;
+}
+
+.post {
+    position: relative;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 40px 0;
+    display: flex;
+    width: 80vw;
+    max-width: 800px;
+}
+
+.post .post-title {
+    font-size: 20px;
+    margin: 0;
+    width: 500px;
+    max-width: 95%;
+}
+
+.post .post-body {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.post .post-info {
+    margin-left: 20px;
+    color: #2d3436;
+}
+
+.post .number {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #00b894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+    opacity: 0;
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    transition: opacity 0.3s ease-in;
+}
+
+.loader.show {
+    opacity: 1;
+}
+
+.circle {
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    animation: bounce 0.5s ease-in infinite;
+}
+
+.circle:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.circle:nth-of-type(3) {
+    animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
