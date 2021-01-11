@@ -27,3 +27,4 @@ The 100 days of code challenge 😍
 | 19  | Infinite Scroll Posts      | Infinite Scroll Posts Using HTML5, CSS3 & JS                       | Javascript, Css              | Done ✔ |
 | 20  | Quiz App                   | Quiz App Using HTML5, CSS3 & JS                                    | Javascript, Css              | Done ✔ |
 | 21  | Drag & Drop                | Drag & Drop Using HTML5, CSS3 & JS                                 | Javascript, Css              | Done ✔ |
+| 22  | Live User Filter           | Live User Filter Using HTML5, CSS3 & JS                            | Javascript, Css              | Done ✔ |
