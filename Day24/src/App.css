@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background: #dfe6e9;
+}
+
+input {
+  font-family: inherit;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+header {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  width: 24%;
+  padding: 11px 18px;
+  background: #b2bec3;
+  border-radius: 22px;
+  font-size: 14px;
+  color: #2d3436;
+}
+
+.search input::placeholder {
+  color: #2d3436;
+}
+
+.grid-emojis {
+  width: 900px;
+  max-width: 95%;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.grid-emojis .item {
+  padding: 70px;
+  background: #fff;
+  border-radius: 30px;
+  font-size: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: -1px 10px 21px -10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-emojis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-emojis {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
