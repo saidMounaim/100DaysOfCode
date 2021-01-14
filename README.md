@@ -30,3 +30,4 @@ The 100 days of code challenge 😍
 | 22  | Live User Filter           | Live User Filter Using HTML5, CSS3 & JS                            | Javascript, Css              | Done ✔ |
 | 23  | Progress Steps          | Progress Steps Using HTML5, CSS3 & JS                            | Javascript, Css              | Done ✔ |
 | 24  | Emoji Finder          | Emoji Finder App Using React Hooks                          | React Hooks, Css              | Done ✔ |
+| 25  | Jobs Finder          | Jobs Finder App Using Next Js & GITHUB JOBS API                         | Next Js, Css              | Done ✔ |
