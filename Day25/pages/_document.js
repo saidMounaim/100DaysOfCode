@@ -1,25 +1,25 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
-    static async getInitialProps(ctx) {
-        const initialProps = await Document.getInitialProps(ctx)
-        return { ...initialProps }
-    }
+	static async getInitialProps(ctx) {
+		const initialProps = await Document.getInitialProps(ctx);
+		return { ...initialProps };
+	}
 
-    render() {
-        return (
-            <Html>
-                <Head>
-                    <title>Create Next App</title>
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        )
-    }
+	render() {
+		return (
+			<Html>
+				<Head>
+					<title>Finder Job App Using Next Js & GITHUB JOBS API</title>
+					<link rel="icon" href="/favicon.ico" />
+				</Head>
+				<body>
+					<Main />
+					<NextScript />
+				</body>
+			</Html>
+		);
+	}
 }
 
-export default MyDocument
+export default MyDocument;
