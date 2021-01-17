@@ -1,0 +1,32 @@
+header {
+	width: 1300px;
+	max-width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	.logo {
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		ul {
+			display: flex;
+			li {
+				font-size: 1rem;
+				font-weight: 400;
+				color: white;
+				list-style: none;
+				margin-left: 30px;
+			}
+		}
+	}
+}

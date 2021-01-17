@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 1300px;
+  max-width: 95%;
+  margin: auto;
+}
+
+header {
+  width: 1300px;
+  max-width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  list-style: none;
+  margin-left: 30px;
+}
+
+.hero-text {
+  height: 100vh;
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-text h1 {
+  width: 700px;
+  max-width: 95%;
+  font-size: 5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
+}
+
+.about .content-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.about .content-about .leftSide {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  overflow: hidden;
+}
+
+.about .content-about .leftSide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about .content-about .rightSide {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #fff;
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-top: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.about .content-about .rightSide h2 {
+  font-size: 3.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222f3e;
+}
+
+.about .content-about .rightSide p {
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 20px;
+  color: #222f3e;
+}
+
+.our-creations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.our-creations .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-creations .header h3 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.our-creations .header button {
+  border: 1px solid black;
+  padding: 10px 22px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+
+.our-creations .header button:after {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: #222f3e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.our-creations .header button:hover {
+  color: white;
+}
+
+.our-creations .header button:hover:after {
+  width: 100%;
+}
+
+.our-creations .grid-creations {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin-top: 70px;
+}
+
+.our-creations .grid-creations .item {
+  height: 530px;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-creations .grid-creations .item img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.our-creations .grid-creations .item h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .about .content-about .rightSide h2 {
+    font-size: 2rem;
+  }
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .content-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-creations .grid-creations {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .our-creations .header h3 {
+    font-size: 2.4rem;
+  }
+  .about .content-about .rightSide {
+    width: 100%;
+    position: initial;
+  }
+  footer .content-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .content-footer .leftSide .logo {
+    -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
+        align-self: center !important;
+  }
+  footer .content-footer .rightSide {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero-text h1 {
+    font-size: 2rem;
+    line-height: 47px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .logo {
+    margin-bottom: 15px;
+  }
+  header nav ul li {
+    margin-left: 11px;
+  }
+  footer .content-footer .leftSide nav ul li {
+    margin-right: 11px !important;
+  }
+  .our-creations .grid-creations {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .our-creations .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about .content-about .rightSide {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+  }
+  .our-creations .header button {
+    margin-top: 22px;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #222f3e;
+  padding: 40px 0;
+}
+
+footer .content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .content-footer .leftSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content-footer .leftSide .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: end;
+}
+
+footer .content-footer .leftSide nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content-footer .leftSide nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .content-footer .leftSide nav ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+footer .content-footer .rightSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content-footer .rightSide nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content-footer .rightSide nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .content-footer .rightSide nav ul li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+footer .content-footer .rightSide nav ul li:last-child {
+  margin-right: 0px;
+}
+
+footer .content-footer .rightSide p {
+  font-size: 0.8rem;
+  margin-top: 15px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

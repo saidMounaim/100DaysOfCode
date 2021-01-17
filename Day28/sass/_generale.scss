@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: $fontUb;
+}
+
+button {
+	font-family: inherit;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.container {
+	width: 1300px;
+	max-width: 95%;
+	margin: auto;
+}

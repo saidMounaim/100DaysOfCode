@@ -1,0 +1,42 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	padding: 100px 0;
+	.content-about {
+		display: flex;
+		position: relative;
+		.leftSide {
+			flex-basis: 70%;
+			overflow: hidden;
+			img {
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		.rightSide {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			background: #fff;
+			padding-left: 70px;
+			padding-right: 60px;
+			padding-top: 60px;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			h2 {
+				font-size: 3.4rem;
+				font-weight: 400;
+				text-transform: uppercase;
+				color: $primaryColor;
+			}
+			p {
+				font-size: 16px;
+				line-height: 27px;
+				margin-top: 20px;
+				color: $primaryColor;
+			}
+		}
+	}
+}
