@@ -34,4 +34,5 @@ The 100 days of code challenge 😍
 | 26  | Expandig Card              | Expandig Card Using HTML5, CSS3 & JS                                       | JavaScript, Css              | Done ✔ |
 | 27  | Pokedex                    | Pokedex Using HTML5, CSS3 & JS                                             | JavaScript, Css              | Done ✔ |
 | 28  | Loopstudios Landing Page   | Loopstudios Landing Page Using HTML5, CSS3 & JS (Locomotive Scroll & GSAP) | JavaScript, Css              | Done ✔ |
-| 28  | Random Choice Picker   | Random Choice Picker Using HTML5, CSS3 & JS | JavaScript, Css              | Done ✔ |
+| 29  | Random Choice Picker       | Random Choice Picker Using HTML5, CSS3 & JS                                | JavaScript, Css              | Done ✔ |
+| 30  | Split Landing Page         | Split Landing Page Using HTML5, CSS3 & JS                                  | JavaScript, Css              | Done ✔ |
