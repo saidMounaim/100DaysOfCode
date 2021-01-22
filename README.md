@@ -38,3 +38,4 @@ The 100 days of code challenge 😍
 | 30  | Split Landing Page         | Split Landing Page Using HTML5, CSS3 & JS                                  | JavaScript, Css              | Done ✔ |
 | 31  | What is MyIP        | What is MyIP Using React Hooks                                  | React Hooks, Css              | Done ✔ |
 | 32  | FAQ Collapse       | FAQ Collapse Using HTML5, CSS3 & JS                                | JavaScript, Css              | Done ✔ |
+| 33  | Toast Notification     | Toast Notification Using HTML5, CSS3 & JS                                | JavaScript, Css              | Done ✔ |
