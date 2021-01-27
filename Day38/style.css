@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	height: 100vh;
+	background-color: #292828;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+	position: relative;
+	height: 50px;
+}
+
+.search .input {
+	background-color: white;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	height: 50px;
+	padding: 15px;
+	width: 50px;
+	transition: width 0.3s ease;
+}
+
+.btn {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	transition: transform 0.3s ease;
+	outline: none;
+}
+
+.search.active .input {
+	width: 200px;
+}
+
+.search.active .btn {
+	transform: translateX(198px);
+}
