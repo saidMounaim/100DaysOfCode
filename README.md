@@ -46,3 +46,4 @@ The 100 days of code challenge 😍
 | 38  | Search Widget             | Search Widget  Using HTML5, CSS3 & JS                                          | JavaScript,                        | Done ✔ |
 | 39  | Vertical Slider             | Vertical Slider Using HTML5, CSS3 & JS                                          | JavaScript,                        | Done ✔ |
 | 40  | Blury Loading             | Blury Loading Using HTML5, CSS3 & JS                                          | JavaScript,                        | Done ✔ |
+| 41  | Todo List             | Todo List App Using React Hooks, Redux, Styled Components, SweetAlert2 & LocalStorage                                          | React Hooks,                        | Done ✔ |
