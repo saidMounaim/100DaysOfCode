@@ -48,3 +48,4 @@ The 100 days of code challenge 😍
 | 40  | Blury Loading              | Blury Loading Using HTML5, CSS3 & JS                                                  | JavaScript,                   | Done ✔ |
 | 41  | Todo List                  | Todo List App Using React Hooks, Redux, Styled Components, SweetAlert2 & LocalStorage | React Hooks,                  | Done ✔ |
 | 42  | FULLSTACK CRUD App         | FULLSTACK CRUD App Using Mern Stack                                                   | Node js, Express js, React js | Done ✔ |
+| 43  | Incrementing Counter       | Incrementing Counter Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
