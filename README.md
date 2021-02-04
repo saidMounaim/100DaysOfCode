@@ -51,3 +51,4 @@ The 100 days of code challenge 😍
 | 43  | Incrementing Counter       | Incrementing Counter Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
 | 44  | Animated Navigation       | Animated Navigation Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
 | 45  | Verify Account       | Verify Account Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
+| 46  | Auto Text Effect       | Auto Text Effect Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
