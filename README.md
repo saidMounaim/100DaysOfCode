@@ -52,3 +52,4 @@ The 100 days of code challenge 😍
 | 44  | Animated Navigation       | Animated Navigation Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
 | 45  | Verify Account       | Verify Account Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
 | 46  | Auto Text Effect       | Auto Text Effect Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
+| 47  | Background Slider       | Background Slider Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+    background-color: #dfe6e9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.6s ease-in-out;
+    position: relative;
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.slide-container {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.3);
+    height: 70vh;
+    width: 70vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.arrow {
+    position: fixed;
+    background-color: transparent;
+    z-index: 100;
+    outline: none;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid white;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    color: white;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: calc(15vw - 70px);
+}
+
+.right-arrow {
+    right: calc(15vw - 70px);
+}
