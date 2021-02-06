@@ -49,7 +49,8 @@ The 100 days of code challenge 😍
 | 41  | Todo List                  | Todo List App Using React Hooks, Redux, Styled Components, SweetAlert2 & LocalStorage | React Hooks,                  | Done ✔ |
 | 42  | FULLSTACK CRUD App         | FULLSTACK CRUD App Using Mern Stack                                                   | Node js, Express js, React js | Done ✔ |
 | 43  | Incrementing Counter       | Incrementing Counter Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
-| 44  | Animated Navigation       | Animated Navigation Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
-| 45  | Verify Account       | Verify Account Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
-| 46  | Auto Text Effect       | Auto Text Effect Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
-| 47  | Background Slider       | Background Slider Using HTML5, CSS3 & JS                                           | javaScript                    | Done ✔ |
+| 44  | Animated Navigation        | Animated Navigation Using HTML5, CSS3 & JS                                            | javaScript                    | Done ✔ |
+| 45  | Verify Account             | Verify Account Using HTML5, CSS3 & JS                                                 | javaScript                    | Done ✔ |
+| 46  | Auto Text Effect           | Auto Text Effect Using HTML5, CSS3 & JS                                               | javaScript                    | Done ✔ |
+| 47  | Background Slider          | Background Slider Using HTML5, CSS3 & JS                                              | javaScript                    | Done ✔ |
+| 48  | Game Info                  | Game Info Using Next js & Styled components                                           | Next js                       | Done ✔ |
