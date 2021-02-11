@@ -58,3 +58,4 @@ The 100 days of code challenge 😍
 | 50  | Youtube To MP3       | Youtube To MP3 Using HTML5, CSS3 & JS                                           | JavaScript                    | Done ✔ |
 | 51  | 404 Page       | 404 Page Mousemove Parallax Using HTML5, CSS3 & JS                                           | JavaScript                    | Done ✔ |
 | 52  | Popup Blurred Background       | Popup Blurred Background Using HTML5, CSS3 & JS                                           | JavaScript                    | Done ✔ |
+| 53  | Kinetic Loader       | Kinetic Loader Using HTML5 & CSS3                                           | HTML5, CSS3                    | Done ✔ |
