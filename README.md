@@ -59,3 +59,4 @@ The 100 days of code challenge 😍
 | 51  | 404 Page       | 404 Page Mousemove Parallax Using HTML5, CSS3 & JS                                           | JavaScript                    | Done ✔ |
 | 52  | Popup Blurred Background       | Popup Blurred Background Using HTML5, CSS3 & JS                                           | JavaScript                    | Done ✔ |
 | 53  | Kinetic Loader       | Kinetic Loader Using HTML5 & CSS3                                           | HTML5, CSS3                    | Done ✔ |
+| 54  | Image Trail Effects       | Image Trail Effects Using JS (GSAP) CSS3                                           | JS (GSAP)                    | Done ✔ |

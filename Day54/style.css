@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #2d3436;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
