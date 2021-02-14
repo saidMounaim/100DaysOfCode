@@ -1,0 +1,22 @@
+{
+  "name": "job-lister",
+  "version": "1.0.0",
+  "description": "Job Lister API Using Node js & Express js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "Said Mounaim",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16",
+    "slugify": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
