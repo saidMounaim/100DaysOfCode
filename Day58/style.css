@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #0f0f0f;
+    height: 1600px;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    width: 90%;
+    padding: 200px 0;
+    position: relative;
+}
+
+.image-container {
+    padding-bottom: 100%;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background-image: url(./images/women.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color: white;
+    margin: 0;
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translateY(-50%);
+    z-index: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.text.text-dark {
+    color: red;
+}
+
+.text span {
+    position: relative;
+}
