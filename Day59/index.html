@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<link rel="stylesheet" href="style.css" />
+	<title>Smooth Scrolling With Parallax Using HTML5, CSS3 & JS (Locomotive Scroll)</title>
+</head>
+
+<body>
+
+	<main data-scroll-container>
+		<div class="content">
+			<section class="distort" data-scroll-section>
+				<div class="grid">
+					<div class="image">
+						<img data-scroll data-scroll-speed="-1" src="./images/1.jpg" alt="Image 1" />
+					</div>
+					<div>
+						<h2 data-scroll data-scroll-speed="-0.5">Boundary Supply</h2>
+						<p data-scroll data-scroll-speed="-0.5">Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit. Voluptatibus aspernatur esse
+							voluptas
+							cupiditate laudantium est quae maxime ipsum repellendus praesentium explicabo facere alias
+							sequi
+							repellat cumque, ullam ut fugiat ab.</p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="image">
+						<img data-scroll data-scroll-speed="-1" src="./images/2.jpg" alt="Image 1" />
+					</div>
+					<div>
+						<h2 data-scroll data-scroll-speed="-0.5">Runway Three</h2>
+						<p data-scroll data-scroll-speed="-0.5">Lorem ipsum, dolor sit amet consectetur adipisicing
+							elit. Voluptatibus aspernatur esse
+							voluptas
+							cupiditate laudantium est quae maxime ipsum repellendus praesentium explicabo facere alias
+							sequi
+							repellat cumque, ullam ut fugiat ab.</p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="image">
+						<img data-scroll data-scroll-speed="-1" src="./images/3.jpg" alt="Image 1" />
+					</div>
+					<div>
+						<h2>Waste Matters</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur esse
+							voluptas
+							cupiditate laudantium est quae maxime ipsum repellendus praesentium explicabo facere alias
+							sequi
+							repellat cumque, ullam ut fugiat ab.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>

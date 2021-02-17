@@ -64,3 +64,4 @@ The 100 days of code challenge 😍
 | 56  | Job Lister API                        | Job Lister API Node js & Express Js                                                   | Node js, Express Js           | Done ✔ |
 | 57  | Block Reveal Effect                        | Block Reveal Effect On Scroll Using HTML5, CSS3 & JS                                                   | JavaScript           | Done ✔ |
 | 58  | Parallax Overlay Text Effect                       | Parallax Overlay Text Effect Using HTML5, CSS3 & JS                                                   | JavaScript           | Done ✔ |
+| 59  | Smooth Scrolling With Parallax                       | Smooth Scrolling With Parallax Using HTML5, CSS3 & JS (Locomotive Scroll)                                                  | JavaScript           | Done ✔ |
