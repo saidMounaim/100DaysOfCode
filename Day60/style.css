@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    box-sizing: border-box;
+    position: fixed;
+    width: 6%;
+    height: 100vh;
+    background: #a72929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2.4px solid white;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    transform: rotate(-90deg);
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.nav {
+    position: fixed;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    left: 6%;
+    background: white;
+}
+
+.nav-items {
+    margin: 60px;
+}
+
+.nav-item {
+    position: relative;
+    font-size: 100px;
+    top: 60px;
+    opacity: 0;
+}
+
+.nav-item a {
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    color: #a72929;
+    text-transform: uppercase;
+    font-size: 140px;
+    letter-spacing: -8px;
+}
+
+/* .nav-item-wrapper:after {
+    content: "";
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    margin: 0 auto;
+    transition: 1s;
+} */
+
+.nav-item:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 0%;
+    height: 2.8px;
+    background: #2d3436;
+    transition: 0.3s;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    .navbar {
+        width: 16%;
+    }
+
+    .nav {
+        left: 16%;
+    }
+
+    .nav-item a {
+        font-size: 40px;
+        letter-spacing: 0;
+    }
+
+    .nav-item:after {
+        display: none;
+    }
+
+}
