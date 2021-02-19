@@ -66,3 +66,4 @@ The 100 days of code challenge 😍
 | 58  | Parallax Overlay Text Effect                       | Parallax Overlay Text Effect Using HTML5, CSS3 & JS                                                   | JavaScript           | Done ✔ |
 | 59  | Smooth Scrolling With Parallax                       | Smooth Scrolling With Parallax Using HTML5, CSS3 & JS (Locomotive Scroll)                                                  | JavaScript           | Done ✔ |
 | 60  | Slide Out Navigation                       | Slide Out Navigation Using HTML5, CSS3 & JS (GSAP)                                                  | JavaScript           | Done ✔ |
+| 61  | Bubbly Background Animation Effects                       | Bubbly Background Animation Effects Using HTML5, CSS3 & JS                                               | JavaScript           | Done ✔ |
