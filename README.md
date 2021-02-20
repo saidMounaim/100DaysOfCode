@@ -62,8 +62,9 @@ The 100 days of code challenge 😍
 | 54  | Image Trail Effects                   | Image Trail Effects Using JS (GSAP) CSS3                                              | JS (GSAP)                     | Done ✔ |
 | 55  | Liquid Distortion Image Hover Effects | Liquid Distortion Image Hover Effects Using HTML5, CSS3 & JS                          | JavaScript                    | Done ✔ |
 | 56  | Job Lister API                        | Job Lister API Node js & Express Js                                                   | Node js, Express Js           | Done ✔ |
-| 57  | Block Reveal Effect                        | Block Reveal Effect On Scroll Using HTML5, CSS3 & JS                                                   | JavaScript           | Done ✔ |
-| 58  | Parallax Overlay Text Effect                       | Parallax Overlay Text Effect Using HTML5, CSS3 & JS                                                   | JavaScript           | Done ✔ |
-| 59  | Smooth Scrolling With Parallax                       | Smooth Scrolling With Parallax Using HTML5, CSS3 & JS (Locomotive Scroll)                                                  | JavaScript           | Done ✔ |
-| 60  | Slide Out Navigation                       | Slide Out Navigation Using HTML5, CSS3 & JS (GSAP)                                                  | JavaScript           | Done ✔ |
-| 61  | Bubbly Background Animation Effects                       | Bubbly Background Animation Effects Using HTML5, CSS3 & JS                                               | JavaScript           | Done ✔ |
+| 57  | Block Reveal Effect                   | Block Reveal Effect On Scroll Using HTML5, CSS3 & JS                                  | JavaScript                    | Done ✔ |
+| 58  | Parallax Overlay Text Effect          | Parallax Overlay Text Effect Using HTML5, CSS3 & JS                                   | JavaScript                    | Done ✔ |
+| 59  | Smooth Scrolling With Parallax        | Smooth Scrolling With Parallax Using HTML5, CSS3 & JS (Locomotive Scroll)             | JavaScript                    | Done ✔ |
+| 60  | Slide Out Navigation                  | Slide Out Navigation Using HTML5, CSS3 & JS (GSAP)                                    | JavaScript                    | Done ✔ |
+| 61  | Bubbly Background Animation Effects   | Bubbly Background Animation Effects Using HTML5, CSS3 & JS                            | JavaScript                    | Done ✔ |
+| 62  | Animated Cursor                       | Animated Cursor Using HTML5, CSS3 & JS                                                | JavaScript                    | Done ✔ |
