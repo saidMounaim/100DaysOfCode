@@ -68,3 +68,4 @@ The 100 days of code challenge 😍
 | 60  | Slide Out Navigation                  | Slide Out Navigation Using HTML5, CSS3 & JS (GSAP)                                    | JavaScript                    | Done ✔ |
 | 61  | Bubbly Background Animation Effects   | Bubbly Background Animation Effects Using HTML5, CSS3 & JS                            | JavaScript                    | Done ✔ |
 | 62  | Animated Cursor                       | Animated Cursor Using HTML5, CSS3 & JS                                                | JavaScript                    | Done ✔ |
+| 63  | Liquid Distortion Slider              | Liquid Distortion Slider Using HTML5, CSS3 & JS                                       | JavaScript                    | Done ✔ |
