@@ -69,5 +69,6 @@ The 100 days of code challenge 😍
 | 61  | Bubbly Background Animation Effects   | Bubbly Background Animation Effects Using HTML5, CSS3 & JS                            | JavaScript                    | Done ✔ |
 | 62  | Animated Cursor                       | Animated Cursor Using HTML5, CSS3 & JS                                                | JavaScript                    | Done ✔ |
 | 63  | Liquid Distortion Slider              | Liquid Distortion Slider Using HTML5, CSS3 & JS                                       | JavaScript                    | Done ✔ |
-| 64  | Change Cursor On Image Hover              | Change Cursor On Image Hover Using HTML5, CSS3 & JS                                       | JavaScript                    | Done ✔ |
-| 65  | Custom Radio Button              | Custom Radio Button Using HTML5 & CSS3                                       | JavaScript                    | Done ✔ |
+| 64  | Change Cursor On Image Hover          | Change Cursor On Image Hover Using HTML5, CSS3 & JS                                   | JavaScript                    | Done ✔ |
+| 65  | Custom Radio Button                   | Custom Radio Button Using HTML5 & CSS3                                                | Css3                          | Done ✔ |
+| 66  | Accordion Animation                   | Accordion Animation Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
