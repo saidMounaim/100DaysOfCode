@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	background-color: #161616;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.cursor,
+.follow {
+	width: 0.4em;
+	height: 0.4em;
+	position: absolute;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+}
+
+.cursor {
+	background: white;
+	border-radius: 50%;
+}
+
+.follow {
+	padding: 2rem;
+	border: 0.1rem solid white;
+	transition: all 0.4s ease-out;
+	border-radius: 100%;
+}
+
+.follow.on-focus {
+	transform: translate(-0.55rem, -0.55rem);
+	border-radius: 0%;
+	border: 0.1rem solid white;
+	padding: 0.46rem;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 2rem;
+	margin: 4rem;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: grey;
+	text-decoration: none;
+}
+
+.button:hover {
+	color: white;
+}

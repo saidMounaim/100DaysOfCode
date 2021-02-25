@@ -72,3 +72,4 @@ The 100 days of code challenge 😍
 | 64  | Change Cursor On Image Hover          | Change Cursor On Image Hover Using HTML5, CSS3 & JS                                   | JavaScript                    | Done ✔ |
 | 65  | Custom Radio Button                   | Custom Radio Button Using HTML5 & CSS3                                                | Css3                          | Done ✔ |
 | 66  | Accordion Animation                   | Accordion Animation Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
+| 67  | Button Hover Effect                   | Button Hover Effect Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
