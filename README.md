@@ -73,4 +73,5 @@ The 100 days of code challenge 😍
 | 65  | Custom Radio Button                   | Custom Radio Button Using HTML5 & CSS3                                                | Css3                          | Done ✔ |
 | 66  | Accordion Animation                   | Accordion Animation Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
 | 67  | Button Hover Effect                   | Button Hover Effect Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
-| 68  | Infinite News Ticker                  | Infinite News Ticker Using HTML5, CSS3 & JS                                            | JavaScript                    | Done ✔ |
+| 68  | Infinite News Ticker                  | Infinite News Ticker Using HTML5 & CSS3                                               | Css3                          | Done ✔ |
+| 69  | Paragraph Reveal Animation            | Paragraph Reveal Animation Using HTML5, CSS3 & JS (GSAP)                              | JavaScript                    | Done ✔ |
