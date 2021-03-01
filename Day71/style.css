@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monument Extended';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #161616;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    perspective: 300px;
+}
+
+.img-wrapper {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background-color: #161616;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.img-wrapper:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.img-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.img-holder {
+    transform: scale(1.4);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: exclusion;
+}
+
+.title h1 {
+    color: transparent;
+    letter-spacing: 12px;
+    font-size: 36px;
+    -webkit-text-stroke: 2px white;
+    text-transform: uppercase;
+}

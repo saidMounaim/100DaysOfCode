@@ -76,3 +76,4 @@ The 100 days of code challenge 😍
 | 68  | Infinite News Ticker                  | Infinite News Ticker Using HTML5 & CSS3                                               | Css3                          | Done ✔ |
 | 69  | Paragraph Reveal Animation            | Paragraph Reveal Animation Using HTML5, CSS3 & JS (GSAP)                              | JavaScript                    | Done ✔ |
 | 70  | Distort Text                          | Distort Text Using BlotterJS                                                          | JavaScript                    | Done ✔ |
+| 71  | Product Hover Effect                         | Product Hover Effect Using GSAP                                                          | JavaScript                    | Done ✔ |
