@@ -77,3 +77,4 @@ The 100 days of code challenge 😍
 | 69  | Paragraph Reveal Animation            | Paragraph Reveal Animation Using HTML5, CSS3 & JS (GSAP)                              | JavaScript                    | Done ✔ |
 | 70  | Distort Text                          | Distort Text Using BlotterJS                                                          | JavaScript                    | Done ✔ |
 | 71  | Product Hover Effect                         | Product Hover Effect Using GSAP                                                          | JavaScript                    | Done ✔ |
+| 72  | >Page Transition                         | Page Transition Using GSAP & Barba                                                          | JavaScript                    | Done ✔ |
