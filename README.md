@@ -79,3 +79,4 @@ The 100 days of code challenge 😍
 | 71  | Product Hover Effect                         | Product Hover Effect Using GSAP                                                          | JavaScript                    | Done ✔ |
 | 72  | Page Transition                         | Page Transition Using GSAP & Barba                                                          | JavaScript                    | Done ✔ |
 | 73  | Progress Bar Preloader                         | Progress Bar Preloader Using Pace js & GSAP                                                          | JavaScript                    | Done ✔ |
+| 74  | Splash Image Mask                         | Splash Image Mask Using HTML5 & CSS3                                                          | CSS3                    | Done ✔ |
