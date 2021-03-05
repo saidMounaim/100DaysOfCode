@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #161616;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 60px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-size: 55px;
+  font-weight: 400;
+  color: white;
+}
+
+
+.container {
+  width: 1600px;
+  max-width: 95%;
+  margin: auto;
+}
+
+
+.search {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 70px;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 11px 10px;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  color: #161616;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-family: inherit;
+  color: #161616;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+  margin-top: 60px;
+}
+
+.items .item {
+  position: relative;
+}
+
+.items .item:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.items .item:hover:after {
+  height: 100%;
+}
+
+.items .item:hover .info {
+  opacity: 1;
+  visibility: visible;
+}
+
+.items .item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.item .info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  top: 60px;
+  left: 27px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s 0.2s;
+  z-index: 2;
+}
+
+.item .info h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.item .info span {
+  font-size: 18px
+}
+
+
+@media screen and (max-width: 1200px) {
+  .items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
