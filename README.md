@@ -76,8 +76,9 @@ The 100 days of code challenge 😍
 | 68  | Infinite News Ticker                  | Infinite News Ticker Using HTML5 & CSS3                                               | Css3                          | Done ✔ |
 | 69  | Paragraph Reveal Animation            | Paragraph Reveal Animation Using HTML5, CSS3 & JS (GSAP)                              | JavaScript                    | Done ✔ |
 | 70  | Distort Text                          | Distort Text Using BlotterJS                                                          | JavaScript                    | Done ✔ |
-| 71  | Product Hover Effect                         | Product Hover Effect Using GSAP                                                          | JavaScript                    | Done ✔ |
-| 72  | Page Transition                         | Page Transition Using GSAP & Barba                                                          | JavaScript                    | Done ✔ |
-| 73  | Progress Bar Preloader                         | Progress Bar Preloader Using Pace js & GSAP                                                          | JavaScript                    | Done ✔ |
-| 74  | Splash Image Mask                         | Splash Image Mask Using HTML5 & CSS3                                                          | CSS3                    | Done ✔ |
-| 75  | Breaking Bad Info                         | Breaking Bad Info Using React Hooks                                                          | React Hooks                    | Done ✔ |
+| 71  | Product Hover Effect                  | Product Hover Effect Using GSAP                                                       | JavaScript                    | Done ✔ |
+| 72  | Page Transition                       | Page Transition Using GSAP & Barba                                                    | JavaScript                    | Done ✔ |
+| 73  | Progress Bar Preloader                | Progress Bar Preloader Using Pace js & GSAP                                           | JavaScript                    | Done ✔ |
+| 74  | Splash Image Mask                     | Splash Image Mask Using HTML5 & CSS3                                                  | CSS3                          | Done ✔ |
+| 75  | Breaking Bad Info                     | Breaking Bad Info Using React Hooks                                                   | React Hooks                   | Done ✔ |
+| 76  | Glitch Effect                         | Glitch Effect Using mgGlitch                                                          | JavaScript                    | Done ✔ |
