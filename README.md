@@ -82,3 +82,4 @@ The 100 days of code challenge 😍
 | 74  | Splash Image Mask                     | Splash Image Mask Using HTML5 & CSS3                                                  | CSS3                          | Done ✔ |
 | 75  | Breaking Bad Info                     | Breaking Bad Info Using React Hooks                                                   | React Hooks                   | Done ✔ |
 | 76  | Glitch Effect                         | Glitch Effect Using mgGlitch                                                          | JavaScript                    | Done ✔ |
+| 77  | Book Crud                             | Book Crud With Node Js And Auth With JWT                                              | Node Js                       | Done ✔ |

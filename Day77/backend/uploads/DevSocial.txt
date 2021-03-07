@@ -1,0 +1,17 @@
+User
+
+-fullName type string
+-email type mail
+-username type string
+-avatar type string
+-token
+
+Post
+
+-title type string
+-description type text
+-cover type string
+-createdAt type date
+-author type ID User (Relation)
+-comments
+-like
