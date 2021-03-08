@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: #161616;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* pointer-events: none; */
+}
+
+.cards__wrapper .card {
+    position: relative;
+    width: 340px;
+    height: 400px;
+    margin: 2rem 5rem;
+    /* pointer-events: none; */
+}
+
+.card__image--wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: grayscale(0);
+    transition: filter 0.5s ease;
+}
+
+.card__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.15);
+    transition: transform 0.5s ease, opacity 0.35s ease;
+}
+
+.card__image--outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card__text {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    transform: translateX(-8rem);
+    pointer-events: none;
+    user-select: none;
+    mix-blend-mode: difference;
+}
+
+.card__text--inner {
+    display: inline-block;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.card__text--inner .word {
+    white-space: nowrap;
+}
+
+.card__text--inner .char {
+    display: inline-block;
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(0.5, 0, 0, 1);
+    transition-delay: calc(0ms + var(--char-index) * 20ms);
+}
+
+.card:hover .card__image {
+    transform: scale(1);
+}
+
+.card:hover .card__text--inner .char {
+    transform: translateY(0);
+}
+
+.cards__wrapper:hover>.card:not(:hover) .card__image--wrapper {
+    filter: grayscale(1);
+}
+
+.cards__wrapper:hover>.card:not(:hover) .card__image {
+    opacity: 0.8;
+}
