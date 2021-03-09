@@ -84,3 +84,4 @@ The 100 days of code challenge 😍
 | 76  | Glitch Effect                         | Glitch Effect Using mgGlitch                                                          | JavaScript                    | Done ✔ |
 | 77  | Book Crud                             | Book Crud With Node Js And Auth With JWT                                              | Node Js                       | Done ✔ |
 | 78  | Image Hover Interaction                            | Image Hover Interaction Using GSAP & SplittingJS                                              | JavaScript                       | Done ✔ |
+| 79  | Tab Bar Interaction                            | Tab Bar Interaction Using GSAP                                              | JavaScript                       | Done ✔ |
