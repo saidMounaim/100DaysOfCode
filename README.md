@@ -83,7 +83,8 @@ The 100 days of code challenge 😍
 | 75  | Breaking Bad Info                     | Breaking Bad Info Using React Hooks                                                   | React Hooks                   | Done ✔ |
 | 76  | Glitch Effect                         | Glitch Effect Using mgGlitch                                                          | JavaScript                    | Done ✔ |
 | 77  | Book Crud                             | Book Crud With Node Js And Auth With JWT                                              | Node Js                       | Done ✔ |
-| 78  | Image Hover Interaction                            | Image Hover Interaction Using GSAP & SplittingJS                                              | JavaScript                       | Done ✔ |
-| 79  | Tab Bar Interaction                            | Tab Bar Interaction Using GSAP                                              | JavaScript                       | Done ✔ |
-| 80  | Simple Product Card UI Design                            | Simple Product Card UI Design Using Html & CSS                                              | CSS3                       | Done ✔ |
-| 81  | Simple Parallax Scrolling Effect                            | Simple Parallax Scrolling Effect Using Html & CSS                                              | JavaScript                       | Done ✔ |
+| 78  | Image Hover Interaction               | Image Hover Interaction Using GSAP & SplittingJS                                      | JavaScript                    | Done ✔ |
+| 79  | Tab Bar Interaction                   | Tab Bar Interaction Using GSAP                                                        | JavaScript                    | Done ✔ |
+| 80  | Simple Product Card UI Design         | Simple Product Card UI Design Using Html & CSS                                        | CSS3                          | Done ✔ |
+| 81  | Simple Parallax Scrolling Effect      | Simple Parallax Scrolling Effect Using Html, CSS & JS                                 | JavaScript                    | Done ✔ |
+| 82  | Sticky Navigation Bar On Scroll       | Sticky Navigation Bar On Scroll Using Html, CSS & JS                                  | JavaScript                    | Done ✔ |
