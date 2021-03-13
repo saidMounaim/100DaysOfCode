@@ -88,3 +88,4 @@ The 100 days of code challenge 😍
 | 80  | Simple Product Card UI Design         | Simple Product Card UI Design Using Html & CSS                                        | CSS3                          | Done ✔ |
 | 81  | Simple Parallax Scrolling Effect      | Simple Parallax Scrolling Effect Using Html, CSS & JS                                 | JavaScript                    | Done ✔ |
 | 82  | Sticky Navigation Bar On Scroll       | Sticky Navigation Bar On Scroll Using Html, CSS & JS                                  | JavaScript                    | Done ✔ |
+| 83  | WebGL Fluid Simulation                | WebGL Fluid Simulation Using JavaScript                                               | JavaScript                    | Done ✔ |
