@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container .box {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #000; */
+    clip-path: circle(400px at center 100px);
+    transition: clip-path 0.5s;
+}
+
+.container .box:hover .imgBx {
+    clip-path: circle(80px at center 100px);
+}
+
+.container .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container .box .content h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container .box .content a {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+}
+
+.container .box .content p {
+    padding: 20px 0;
+}
+
+.container .box .content h2,
+.container .box .content p,
+.container .box .content a {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+
+.container .box:hover .content h2 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.4s;
+}
+
+.container .box:hover .content p {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.7s;
+}
+
+.container .box:hover .content a {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.9s;
+}
