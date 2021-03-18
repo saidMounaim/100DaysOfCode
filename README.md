@@ -93,3 +93,4 @@ The 100 days of code challenge 😍
 | 85  | Moving Tooltip on Mousemove                | Moving Tooltip on Mousemove Using HTML5, CSS3 & JS                                               | JavaScript                    | Done ✔ |
 | 86  | Clip-path Image Hover Effects                | Clip-path Image Hover Effects Using HTML5 & CSS3                                               | CSS3                    | Done ✔ |
 | 87  | Creative Landing Page                | Creative Landing Page Using HTML5, CSS3 & JS                                              | JavaScript                    | Done ✔ |
+| 88  | Animated Particles Effect                | Animated Particles Effect Using HTML5, CSS3 & JS                                              | CSS3                    | Done ✔ |
