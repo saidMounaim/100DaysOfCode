@@ -96,3 +96,4 @@ The 100 days of code challenge 😍
 | 88  | Animated Particles Effect             | Animated Particles Effect Using HTML5 & CSS3                                          | CSS3                          | Done ✔ |
 | 89  | Scroll Image From Top To Bottom       | Scroll Image From Top To Bottom Using HTML5 & CSS3                                    | CSS3                          | Done ✔ |
 | 90  | Paginated API                         | Paginated API With Node Js, Express Js & MongoDB                                      | Node Js                       | Done ✔ |
+| 91  | Account Verification                         | Account Verification With JWT, Node.js & Express                                      | Node Js                       | Done ✔ |
