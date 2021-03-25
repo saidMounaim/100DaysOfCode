@@ -100,3 +100,5 @@ The 100 days of code challenge 😍
 | 92  | Scroll Progress Indicator                         | Scroll Progress Indicator Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
 | 93  | Intro Text Animation                         | Intro Text Animation Using HTML5 & CSS3                                      | CSS3                       | Done ✔ |
 | 94  | Coming Soon Page                         | Coming Soon Page Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
+| 94  | Coming Soon Page                         | Coming Soon Page Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
+| 95  | Video Slider                         | Video Slider Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
