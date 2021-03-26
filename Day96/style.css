@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* .navigation ul {
+    position: relative;
+} */
+
+.navigation ul li {
+    text-align: center;
+    list-style: none;
+}
+
+.navigation ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 5px 20px;
+    display: inline-flex;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.navigation ul:hover li a {
+    color: #0002;
+}
+
+.navigation ul li:hover a {
+    color: #000;
+    background-color: #fff;
+}
+
+.navigation ul li a:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    opacity: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 500px;
+    transform: translate(-50%, -50%);
+    transition: letter-spacing 0.5s;
+}
+
+.navigation ul li a:hover:before {
+    content: attr(data-text);
+    opacity: 1;
+    letter-spacing: 10px;
+}
+
+.navigation ul li:nth-child(6n + 1) a:before {
+    background: #81ecec;
+}
+
+.navigation ul li:nth-child(6n + 2) a:before {
+    background: #ff7675;
+}
+
+.navigation ul li:nth-child(6n + 3) a:before {
+    background: #55efc4;
+}
+
+.navigation ul li:nth-child(6n + 4) a:before {
+    background: #a29bfe;
+}
+
+.navigation ul li:nth-child(6n + 5) a:before {
+    background: #fd79a8;
+}
+
+.navigation ul li:nth-child(6n + 6) a:before {
+    background: #ffeaa7;
+}
