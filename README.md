@@ -96,10 +96,11 @@ The 100 days of code challenge 😍
 | 88  | Animated Particles Effect             | Animated Particles Effect Using HTML5 & CSS3                                          | CSS3                          | Done ✔ |
 | 89  | Scroll Image From Top To Bottom       | Scroll Image From Top To Bottom Using HTML5 & CSS3                                    | CSS3                          | Done ✔ |
 | 90  | Paginated API                         | Paginated API With Node Js, Express Js & MongoDB                                      | Node Js                       | Done ✔ |
-| 91  | Account Verification                         | Account Verification With JWT, Node.js & Express                                      | Node Js                       | Done ✔ |
-| 92  | Scroll Progress Indicator                         | Scroll Progress Indicator Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
-| 93  | Intro Text Animation                         | Intro Text Animation Using HTML5 & CSS3                                      | CSS3                       | Done ✔ |
-| 94  | Coming Soon Page                         | Coming Soon Page Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
-| 94  | Coming Soon Page                         | Coming Soon Page Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
-| 95  | Video Slider                         | Video Slider Using HTML5, CSS3 & JS                                      | JavaScript                       | Done ✔ |
-| 96  | Creative Menu                        | Creative Menu Using HTML5 & CSS3                                      | CSS3                       | Done ✔ |
+| 91  | Account Verification                  | Account Verification With JWT, Node.js & Express                                      | Node Js                       | Done ✔ |
+| 92  | Scroll Progress Indicator             | Scroll Progress Indicator Using HTML5, CSS3 & JS                                      | JavaScript                    | Done ✔ |
+| 93  | Intro Text Animation                  | Intro Text Animation Using HTML5 & CSS3                                               | CSS3                          | Done ✔ |
+| 94  | Coming Soon Page                      | Coming Soon Page Using HTML5, CSS3 & JS                                               | JavaScript                    | Done ✔ |
+| 94  | Coming Soon Page                      | Coming Soon Page Using HTML5, CSS3 & JS                                               | JavaScript                    | Done ✔ |
+| 95  | Video Slider                          | Video Slider Using HTML5, CSS3 & JS                                                   | JavaScript                    | Done ✔ |
+| 96  | Creative Menu                         | Creative Menu Using HTML5 & CSS3                                                      | CSS3                          | Done ✔ |
+| 97  | Weather App                           | Weather App Using Next Js                                                             | Next Js                       | Done ✔ |
