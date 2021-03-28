@@ -104,3 +104,4 @@ The 100 days of code challenge 😍
 | 95  | Video Slider                          | Video Slider Using HTML5, CSS3 & JS                                                   | JavaScript                    | Done ✔ |
 | 96  | Creative Menu                         | Creative Menu Using HTML5 & CSS3                                                      | CSS3                          | Done ✔ |
 | 97  | Weather App                           | Weather App Using Next Js                                                             | Next Js                       | Done ✔ |
+| 98  | Forgot Password                       | Forgot Password With JWT, Node.js & Express                                           | Node Js                       | Done ✔ |
