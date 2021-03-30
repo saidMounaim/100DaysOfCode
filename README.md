@@ -105,3 +105,4 @@ The 100 days of code challenge 😍
 | 97  | Weather App                           | Weather App Using Next Js                                                             | Next Js                       | Done ✔ |
 | 98  | Forgot Password                       | Forgot Password With JWT, Node.js & Express                                           | Node Js                       | Done ✔ |
 | 99  | Colorful Mosaic Pattern Generator     | Colorful Mosaic Pattern Generator Using HTML5, CSS3 & JS                              | JavaScript                    | Done ✔ |
+| 100 | Show Hide Password                    | Show Hide Password Using HTML5, CSS3 & JS                                             | JavaScript                    | Done ✔ |
